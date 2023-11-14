@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RicetteFacili</title>
+</head>
+<body>
+    <header>
+        <h1>RicetteFacili</h1>
+        <nav>
+            <ol>
+                <li><a href="./homepage.html">Home</a></li>
+                <li><a href="./modulo_invio_ricetta.html">Invia la tua ricetta!</a></li>
+                <li><a href="./modulo_invio.html">Contatti</a></li>
+            </ol>
+        </nav>
+        <hr >
+    </header>
+    <section>
+        <h3>Contattaci</h3>
+            <form>
+                <label for="request">Tipo di richiesta:</label>
+                <select name="request" id="request">
+                    <option value="" selected >Annulla</option>
+                    <option value="assistenza" >Assistenza</option>
+                    <option value="faq" >FAQ</option>
+                    <option value="reclamo" >Reclamo</option>
+                </select>
+                <br><br>
+                <label for="titolo" name="titolo">Titolo</label>
+                <input type="text" name="titolo" id="titolo">
+                <br> <br>
+                <label for="descrizione">Descrizione</label>
+                <textarea name="descrizione" id="descrizione" cols="20" rows="2"></textarea>
+                <br><br>
+                <button type="submit">Invia</button>
+            </form>
+    </section>
+    <hr>
+    <section>
+        <h3>Altri Contatti</h3>
+        <table border="1">
+            <thead>
+                <th>email:</th>
+                <td>info@ricettefacili.it</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>telefono:</th>
+                    <td>0858210717</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <hr>
+        <p>© 2023RicetteFacili P.IVA 08009080964</p>
+    </footer>
+</body>
+</html>
