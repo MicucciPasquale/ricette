@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c5ecc5;
+}
+
+h1 {
+    color: #f85c1f; 
+    text-align: center;
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.205);
+    text-transform: capitalize;
+    font-family: "Brush Script MT"; 
+    font-size: 390%;
+}
+
+h2, h3 {
+    color: #f85c1f; 
+    text-align: center;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.205);
+    text-transform: capitalize;
+    font-family: "Brush Script MT"; 
+    font-size: 150%;
+}
+
+.btn-personalized a {
+    text-decoration: none;
+    color: rgb(2, 54, 15);
+    border-color: rgb(190, 255, 170);
+    text-align: center;
+}
+.btn-personalized a:active {
+    background-color: #ff3907;
+    color: #ffffff;
+}
+.heading {
+    text-align: center;
+}
+
+
+main {
+    text-align: center; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px; 
+}
+
+footer {
+    text-align: center; 
+}
+
+form {
+    text-align: center;
+}
+section table{
+    text-align: center;
+}
